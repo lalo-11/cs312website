@@ -1,4 +1,4 @@
-/* Eduardo Ramirez, 06/24/26, Module 6 */
+/* Eduardo Ramirez, 07/4/26, Module 7 */
 
 body {
    background-color: #f4efe6;
@@ -6,6 +6,46 @@ body {
    font-family: Arial, Helvetica, sans-serif;
    font-size: 18px;
    line-height: 1.5;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #d9c3a3;
+   padding: 20px;
+   border-bottom: 2px solid #8b5a2b;
+   text-align: center;
+}
+
+nav {
+   text-align: center;
+   padding: 12px;
+   border-bottom: 1px solid #8b5a2b;
+}
+
+nav a {
+   margin: 0 10px;
+}
+
+main {
+   max-width: 900px;
+   margin: 20px auto;
+   padding: 20px;
+   border: 1px solid #c5b39a;
+   background-color: white;
+}
+
+img {
+   max-width: 100%;
+   border: 2px solid #8b5a2b;
+   padding: 5px;
+}
+
+footer {
+   margin-top: 20px;
+   padding: 15px;
+   border-top: 2px solid #8b5a2b;
+   text-align: center;
 }
 
 h1 {
