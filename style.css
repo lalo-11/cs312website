@@ -1,4 +1,4 @@
-/* Eduardo Ramirez, 07/4/26, Module 7 */
+/* Eduardo Ramirez, 07/09/26, Module 8 */
 
 body {
    background-color: #f4efe6;
@@ -12,40 +12,46 @@ body {
 
 header {
    background-color: #d9c3a3;
-   padding: 20px;
-   border-bottom: 2px solid #8b5a2b;
    text-align: center;
+   padding: 20px;
+   border-radius: 0 0 12px 12px;
+   box-shadow: 0 3px 8px rgba(43, 33, 24, 0.2);
 }
 
 nav {
+   background: linear-gradient(to right, #f4efe6, #d9c3a3, #f4efe6);
    text-align: center;
    padding: 12px;
-   border-bottom: 1px solid #8b5a2b;
 }
 
 nav a {
+   color: #5f3b1b;
    margin: 0 10px;
+   text-decoration: none;
 }
 
 main {
    max-width: 900px;
    margin: 20px auto;
    padding: 20px;
-   border: 1px solid #c5b39a;
    background-color: white;
+   border: 1px solid #c5b39a;
+   border-radius: 12px;
+   box-shadow: 0 4px 10px rgba(43, 33, 24, 0.15);
 }
 
 img {
    max-width: 100%;
    border: 2px solid #8b5a2b;
+   border-radius: 10px;
    padding: 5px;
 }
 
 footer {
+   text-align: center;
    margin-top: 20px;
    padding: 15px;
    border-top: 2px solid #8b5a2b;
-   text-align: center;
 }
 
 h1 {
