@@ -67,8 +67,13 @@ main {
 
 img {
    max-width: 100%;
+   height: auto;
    border: 2px solid #8b5a2b;
    padding: 5px;
+}
+
+iframe {
+   max-width: 100%;
 }
 
 footer {
@@ -115,4 +120,58 @@ a {
 
 .intro-text {
    flex: 1 1 350px;
+}
+
+/* Module 10 Responsive Styles */
+
+@media only screen and (max-width: 900px) {
+
+   .wrapper {
+      width: 95%;
+      margin: 15px auto;
+   }
+
+   .intro-layout {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   main {
+      width: auto;
+      margin: 15px;
+   }
+}
+@media only screen and (max-width: 600px) {
+
+   .wrapper {
+      width: 100%;
+      margin: 0;
+      border-radius: 0;
+      box-shadow: none;
+   }
+
+   nav ul {
+      flex-direction: column;
+   }
+
+   nav a {
+      display: block;
+      text-align: center;
+      padding: 12px;
+   }
+
+   .intro-layout {
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   main {
+      margin: 10px;
+      padding: 15px;
+   }
+
+   iframe {
+      width: 100%;
+      height: auto;
+   }
 }
